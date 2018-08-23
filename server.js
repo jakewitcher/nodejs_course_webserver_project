@@ -49,6 +49,6 @@ app.get('/about', (req, res) => {
   });
 });
 
-app.listen(port, process.env.IP, () => {
+app.listen(port, () => {
   console.log(`Server is up on port ${port}`);
 });
